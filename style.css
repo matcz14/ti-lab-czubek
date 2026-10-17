@@ -35,3 +35,23 @@ a { color: var(--celeste-dark); }
 a:focus-visible { outline: 3px solid var(--celeste); outline-offset: 3px; }
 
 section { padding-block: 40px; }
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 800;
+  font-stretch: 125%;
+  letter-spacing: -.02em;
+}
+
+.menu { display: flex; gap: 24px; }
+.menu a { text-decoration: none; color: var(--ink); font-weight: 600; }
+.menu a:hover { color: var(--celeste-dark); }
